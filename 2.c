@@ -15,6 +15,6 @@ int a = 1, b = 1, c = 1, sum = 0;
 		b = c;
 	}
  
-	printf("\n%d\n", sum);
+	printf("%d\n", sum);
 	return 0;	
 }

@@ -3,12 +3,12 @@
 int
 main(void)
 {
-	int total=0;
-	int i=0;
+	int total;
+	int i;
 
-	while(i<1000) {
-		if(i % 3==0 || i % 5==0)
-			total+=i;
+	while(i < 1000) {
+		if(i % 3 == 0 || i % 5 == 0)
+			total += i;
 		i++;
 	}
 
